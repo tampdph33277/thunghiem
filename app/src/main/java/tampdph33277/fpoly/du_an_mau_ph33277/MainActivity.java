@@ -117,7 +117,9 @@ public class MainActivity extends AppCompatActivity {
                     AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
                     builder.setTitle("Thông báo");
                   //  builder.setMessage("Bạn có muốn đăng xuất tài khoản không ?");
-                    builder.setMessage("Bạn có muốn đăng xuất tài khoảnnnnn không ?");
+                    //builder.setMessage("Bạn có muốn đăng xuất tài khoảnnnnn không ?");
+                    builder.setMessage("Bạn có muốn đăng xuất tài khoản không ?");
+
                     builder.setCancelable(false);
                     builder.setPositiveButton("Đồng ý", new DialogInterface.OnClickListener() {
                         @Override
