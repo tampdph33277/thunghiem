@@ -116,7 +116,8 @@ public class MainActivity extends AppCompatActivity {
                 } else if (item.getItemId() == R.id.nav_Logout) {
                     AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
                     builder.setTitle("Thông báo");
-                    builder.setMessage("Bạn có muốn đăng xuất tài khoản không ?");
+                  //  builder.setMessage("Bạn có muốn đăng xuất tài khoản không ?");
+                    builder.setMessage("Bạn có muốn đăng xuất tài khoảnnnnn không ?");
                     builder.setCancelable(false);
                     builder.setPositiveButton("Đồng ý", new DialogInterface.OnClickListener() {
                         @Override
