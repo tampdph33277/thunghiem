@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+
+    android:layout_margin="5dp"
+    android:background="@drawable/row_tv">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_margin="5dp">
+        <LinearLayout
+            android:id="@+id/layout_TV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_toLeftOf="@id/img_xoa_TV">
+            <TextView
+                android:id="@+id/tv_id_TV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mã sách: 1"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+
+                />
+
+            <TextView
+                android:id="@+id/tv_ten_TV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tên sách: Java1"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                />
+            <TextView
+                android:id="@+id/tv_NamSinh_TV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="Giá Thuê: 5000 VND"
+                />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/img_xoa_TV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:padding="10dp"
+            android:src="@drawable/baseline_delete_forever_24" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/img_edit_TV"
+            android:src="@drawable/baseline_edit_24"
+            android:layout_centerInParent="true"
+            android:layout_toLeftOf="@id/img_xoa_TV"
+            android:padding="10dp"/>
+    </RelativeLayout>
+</LinearLayout>

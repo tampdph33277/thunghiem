@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="40dp"
+    android:layout_margin="5dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:text="Sửa phiếu mượn"
+        android:layout_gravity="center"
+        android:textColor="#FF5722"
+        android:layout_marginBottom="20dp"/>
+<!--<EditText-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:hint="Mã phiếu mượn"-->
+<!--    android:id="@+id/ed_id_loaisach"-->
+<!--    android:layout_marginBottom="10dp"/>-->
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sp_edit_TV"
+        android:layout_marginBottom="20dp"/>
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sp_edit_Sach"
+        android:layout_marginBottom="20dp"/>
+    <TextView
+        android:id="@+id/tv_edit_gia_thue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tiền thuể: 5000 VND"
+        />
+    <TextView
+        android:id="@+id/tv_edit_ngayMuon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ngày thuê: 2023-09-13 "
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Thuế VAT"
+        android:id="@+id/ed_edit_thueVAT"
+        android:layout_marginBottom="10dp"/>
+<!--    <EditText-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="Tên loại sách"-->
+<!--        android:id="@+id/ed_ten_loaisach"-->
+<!--        android:layout_marginBottom="10dp"/>-->
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đã trả sách"
+        android:id="@+id/chk_edit_ngaytra"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hủy"
+            android:backgroundTint="#918C8C"
+
+            android:id="@+id/btn_edit_huy_phieumuon"/>
+        <Button
+
+            android:backgroundTint="#2196F3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lưu"
+            android:id="@+id/btn_edit_luu_phieumuon"
+            android:layout_marginLeft="30dp"/>
+    </LinearLayout>
+</LinearLayout>

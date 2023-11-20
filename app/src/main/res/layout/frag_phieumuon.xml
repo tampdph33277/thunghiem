@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<!--    <RelativeLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        >-->
+<!--        <LinearLayout-->
+<!--            android:id="@+id/layout_pm"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="vertical"-->
+<!--            android:layout_toLeftOf="@id/img_xoa_pm">-->
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Mã phiếu: 1"-->
+<!--                />-->
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Thành viên: Phùng Đức Tâm"-->
+<!--                />-->
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Tên Sách: Java1"-->
+<!--                android:textSize="20dp"-->
+<!--                android:textStyle="bold"-->
+<!--                />-->
+<!--            <TextView-->
+
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Tiền thuể: 5000 VND"-->
+<!--                />-->
+<!--            <TextView-->
+
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Ngày thuê: 2023-09-13 "-->
+<!--                />-->
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="CHưa chả sách"-->
+<!--                android:textColor="#D65252"-->
+<!--                />-->
+<!--        </LinearLayout>-->
+<!--        <ImageView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:id="@+id/img_xoa_pm"-->
+<!--            android:src="@drawable/baseline_delete_forever_24"-->
+<!--            android:layout_centerInParent="true"-->
+<!--            android:layout_alignParentRight="true"-->
+<!--            android:layout_marginRight="10dp"/>-->
+
+<!--    </RelativeLayout>-->
+
+    <androidx.recyclerview.widget.RecyclerView
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:id="@+id/rc_pm"/>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fab_phieumuon"
+        android:layout_gravity="end"
+        android:src="@drawable/baseline_add_circle_24"/>
+</LinearLayout>

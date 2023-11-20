@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/baseline_key_241"/>
+    <LinearLayout
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
+    <EditText
+        android:id="@+id/ed_PassOld"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mật khẩu cũ"/>
+    <EditText
+        android:id="@+id/ed_PassNew"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mật khẩu"/>
+    <EditText
+        android:id="@+id/ed_RePassNew"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập lại mật khẩu"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <Button
+
+            android:id="@+id/btn_huy_dmk"
+            android:backgroundTint="#918C8C"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hủy" />
+        <Button
+            android:backgroundTint="#3D61E3"
+            android:id="@+id/btn_luu_dmk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lưu"
+            android:layout_marginLeft="30dp"/>
+
+    </LinearLayout>
+</LinearLayout>

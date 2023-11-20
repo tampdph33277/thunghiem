@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="40dp"
+    android:layout_margin="5dp">
+<!--<EditText-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:hint="Mã sách"-->
+<!--    android:id="@+id/ed_id_sach"-->
+<!--    android:layout_marginBottom="10dp"/>-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:text="Thêm sách"
+        android:layout_gravity="center"
+        android:textColor="#FF5722"
+        android:layout_marginBottom="20dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tên sách"
+        android:id="@+id/ed_tensach"
+        android:layout_marginBottom="10dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tiền thuê"
+        android:id="@+id/ed_tienthue"
+        android:layout_marginBottom="10dp"/>
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sp_loaisach"
+        android:layout_marginBottom="20dp"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        >
+        <Button
+            android:backgroundTint="#918C8C"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hủy"
+            android:id="@+id/btn_huy_sach"/>
+        <Button
+            android:backgroundTint="#3D61E3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lưu"
+            android:id="@+id/btn_luu_sach"
+            android:layout_marginLeft="30dp"/>
+
+    </LinearLayout>
+</LinearLayout>
