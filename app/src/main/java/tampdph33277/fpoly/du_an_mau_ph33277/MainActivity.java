@@ -116,8 +116,8 @@ public class MainActivity extends AppCompatActivity {
                 } else if (item.getItemId() == R.id.nav_Logout) {
                     AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
                     builder.setTitle("Thông báo");
-                  //  builder.setMessage("Bạn có muốn đăng xuất tài khoản không ?");
-                    //builder.setMessage("Bạn có muốn đăng xuất tài khoảnnnnn không ?");
+                  //  tamp8785@
+                    // builder.setMessage("Bạn có muốn đăng xuất tài khoảnnnnn không ?");
                     builder.setMessage("Bạn có muốn đăng xuất tài khoản không ?");
 // builder.setMessage("Bạn có muốn đăng xuất tài khoản không ?");
                     // builder.setMessage("Bạn có muốn đăng xuất tài khoản không ?"); builder.setMessage("Bạn có muốn đăng xuất tài khoản không ?");
