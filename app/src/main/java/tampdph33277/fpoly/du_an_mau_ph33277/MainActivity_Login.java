@@ -35,6 +35,7 @@ DAO_ThuThu dao_thuThu;
         chKRemeberPass = findViewById(R.id.chKRemeberPass);
         dao_thuThu = new DAO_ThuThu(this);
     //    setTitle("DANG NHAP");
+        //tamp8785
         // doc user , pass trong SharedPreferences
         SharedPreferences sharedPreferences = getSharedPreferences("USER_FILE",MODE_PRIVATE);
         String user = sharedPreferences.getString("USERNAME","");
